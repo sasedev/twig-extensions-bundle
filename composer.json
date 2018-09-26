@@ -2,10 +2,11 @@
 	"name" : "sasedev/twig-extensions-bundle",
 	"type" : "symfony-bundle",
 	"description" : "Symfony 4 bundle for personal twig extensions",
-	"license" : "MIT",
 	"keywords" : [
 		"symfony twig"
 	],
+	"homepage" : "https://github.com/sasedev/twig-extensions-bundle",
+	"license" : "MIT",
 	"autoload" : {
 		"psr-4" : {
 			"Sasedev\\Twig\\Extensions\\" : "src"
@@ -15,6 +16,7 @@
 		"php" : ">=7.2",
 		"symfony/http-kernel" : "^4.1",
 		"symfony/twig-bridge" : "^4.1",
-		"symfony/flex": "^1.1"
-	}
+		"symfony/flex" : "^1.1"
+	},
+	"minimum-stability" : "stable"
 }
