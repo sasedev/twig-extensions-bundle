@@ -1,0 +1,12 @@
+###> Eclipse IDE ###
+/.settings/
+/.buildpath
+/.classpath
+/.project
+###< Eclipse IDE ###
+
+###> Composer/SF ###
+/vendor/
+/composer.lock
+/symfony.lock
+###< Composer/SF ###
