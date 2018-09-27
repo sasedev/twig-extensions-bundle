@@ -1,4 +1,4 @@
 services:
     Sasedev\Twig\Extensions\Extension\PhpExtension:
-#        public: false
+        public: false
         tags: ['twig.extension']

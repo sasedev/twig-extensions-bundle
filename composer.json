@@ -3,20 +3,28 @@
 	"type" : "symfony-bundle",
 	"description" : "Symfony 4 bundle for personal twig extensions",
 	"keywords" : [
-		"symfony twig"
+		"symfony",
+		" twig"
 	],
 	"homepage" : "https://github.com/sasedev/twig-extensions-bundle",
 	"license" : "MIT",
+	"authors" : [{
+			"name" : "Salah Abdelkader Seif Eddine",
+			"email" : "seif.salah@gmail.com"
+		}
+	],
 	"autoload" : {
 		"psr-4" : {
 			"Sasedev\\Twig\\Extensions\\" : "src"
 		}
 	},
 	"require" : {
-		"php" : ">=7.2",
+		"php" : "^7.1.3",
 		"symfony/http-kernel" : "^4.1",
 		"symfony/twig-bridge" : "^4.1",
-		"symfony/flex" : "^1.1"
+		"symfony/flex" : "^1.1",
+		"symfony/dependency-injection" : "^4.1",
+		"symfony/config" : "^4.1"
 	},
 	"minimum-stability" : "stable"
 }
